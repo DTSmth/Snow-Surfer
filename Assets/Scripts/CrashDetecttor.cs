@@ -1,14 +1,14 @@
 using UnityEngine;
 
-public class FinishLine : MonoBehaviour
+public class CrashDetecttor : MonoBehaviour
 {
     void OnTriggerEnter2D(Collider2D collision)
     {
-        int layerIndex = LayerMask.NameToLayer("Player");
+        int layerIndex = LayerMask.NameToLayer("Floor");
 
         if (collision.gameObject.layer == layerIndex)
         {
-            Debug.Log("The player has won!");
+            Debug.Log("You lost");
         }
     }
 }
