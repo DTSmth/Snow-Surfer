@@ -240,6 +240,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5813ff0cef19d29459b1b75fde31398b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FinishLine
+  reloadDelay: 1
 --- !u!61 &424862810
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -274,7 +275,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.8356781, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -284,7 +285,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 2.68, y: 75}
+  m_Size: {x: 0.5840759, y: 75}
   m_EdgeRadius: 0
 --- !u!212 &424862811
 SpriteRenderer:
@@ -642,6 +643,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec9e3337f9c1e4141a32592e554c7dad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CrashDetecttor
+  reloadDelay: 1
 --- !u!114 &619365257
 MonoBehaviour:
   m_ObjectHideFlags: 0
