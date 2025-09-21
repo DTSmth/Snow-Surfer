@@ -19,7 +19,7 @@ public class CrashDetecttor : MonoBehaviour
 
         if (collision.gameObject.layer == layerIndex)
         {
-            playerController.canControlPlayer = false;
+            playerController.DisableControls();
             crashParticles.Play();
             Invoke("ReloadScene", reloadDelay);
         }
